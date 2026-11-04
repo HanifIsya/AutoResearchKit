@@ -1,0 +1,14 @@
+# ==== PRIVASI KERAS — DATA PENGGUNA TIDAK BOLEH MASUK REPO ====
+PSO_extracted/
+*_extracted/
+results_*/
+output_pso/
+_work/
+*.xlsx
+*.xls
+*.docx
+*.pptx
+*.pdf
+*.log
+run_log*
+*.zip
