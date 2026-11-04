@@ -122,6 +122,11 @@ QA render semua halaman.
 2. Bangun deck 16:9 via `python-pptx` (ikuti skill `presentations:pptx`),
    16–20 slide; grafik dari angka benchmark nyata (matplotlib 300 DPI).
 3. Gerbang: angka sinkron dengan paper.
+4. Alternatif kualitas-tinggi: jalur Figma (frame 1280×720 = 1 slide
+   full-bleed; plugin builder + export @3x + assembler tersedia di
+   ``scripts/figma_plugin_deck/`` dan ``scripts/figma_deck.py``;
+   panduan ``references/08-figma-deck-pipeline.md``). Teks slide menjadi
+   gambar — sampaikan trade-off ini ke pengguna.
 
 ### FASE 6 — Review Loop PPT
 Render PPTX→PNG (`scripts/render_pptx_png.py`) → visual judge per slide →
