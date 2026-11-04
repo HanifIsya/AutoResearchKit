@@ -4,6 +4,20 @@ Semua perubahan penting pada AutoResearchKit didokumentasikan di sini.
 Format mengikuti [Keep a Changelog](https://keepachangelog.com/) dan versi
 [SemVer](https://semver.org/).
 
+## [1.1.0] — 2026-11-05
+
+### Diubah (umpan balik pengguna run pertama)
+- Fase 3 diredefinisi: output paper adalah **naskah akademik utuh** (Abstrak →
+  Pendahuluan → Studi Terkait → Metodologi → Hasil → Pembahasan → Simpulan →
+  Pustaka IEEE by first appearance → Lampiran) mengikuti
+  evidence-grounded-academic-writing, dengan verifikasi literatur (8 referensi
+  DOI terverifikasi) dan 3 ledger bukti (search log, literature matrix,
+  citation entailment) — menggantikan format "laporan analisa kode 8 bab".
+- Deck direvisi ke fidelitas template referensi: cover terang, Montserrat,
+  panel ber-border biru, section bar dua-tona, badge kanan-atas.
+- `references/04` ditulis ulang (panduan naskah akademik + pelajaran
+  persamaan: jangan tab-stop + justification).
+
 ## [1.0.0] — 2026-11-04
 
 ### Ditambahkan

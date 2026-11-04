@@ -1,46 +1,66 @@
-# 04 — Fase 3: Paper DOCX (8 Bab)
+# 04 — Fase 3: Naskah Akademik Utuh (bukan laporan kode)
 
-Bangun dengan `scripts/ml_docx_builder.py` (class `MLReportDocx`):
+Output Fase 3 adalah **manuskrip akademik** mengikuti
+`evidence-grounded-academic-writing` (genre: technical report / systems
+paper), BUKAN laporan analisa-kode per modul. Analisa kode adalah BAHAN
+(metodologi + temuan), bukan struktur naskah.
 
-```python
-import sys; sys.path.insert(0, "skills/autoresearchkit/scripts")
-from ml_docx_builder import MLReportDocx
-b = MLReportDocx()
-b.add_title_page("ANALISIS KODE MACHINE LEARNING", "<subjudul>", "<metadata>")
-b.doc.add_page_break()          # DAFTAR ISI di halaman sendiri
-b.add_toc_header()
-b.add_toc_entry(0, "ALUR BACA KODE", 3)   # nomor halaman fisik (dua-pass)
-b.h1("ALUR BACA KODE"); b.h2("..."); b.para("..."); b.callout(...)
-b.code_block("app.py line 10-29", src_text_exact)   # WAJIB persis = sumber
-b.table_caption(1, "..."); b.data_table(headers, rows, col_widths)
-b.figure(path, width_in, number, caption)
-b.save("results_<nama>/ANALISIS KODE MACHINE LEARNING - <nama>.docx")
+## Struktur standar
+
+```
+Judul + Abstrak + Kata kunci
+1. Pendahuluan        — urgensi konkret, gap via studi terdekat, RQ, kontribusi
+2. Studi Terkait      — sintesis tematik berkontras (bukan parade sitasi)
+3. Metodologi         — objek studi, protokol audit, reproduksi multi-seed,
+                        desain patch, metrik domain (dengan persamaan bernomor)
+4. Hasil              — hanya dari output terukur; tabel & gambar dari CSV sumber
+5. Pembahasan         — interpretasi, alternatif penjelasan, batas inferensi
+6. Simpulan           — jawab RQ; tanpa angka baru
+Daftar Pustaka        — IEEE by first appearance; SEMUA metadata terverifikasi
+Lampiran A            — protokol reproduksi + snippet terverifikasi (opsional)
 ```
 
-## Struktur 8 bab
+## Urutan penulisan (playbook 05)
 
-1. Title page → 2. DAFTAR ISI → 3. ALUR BACA KODE → 4. ANALISA KODE
-(inventaris + deep-dive per modul) → 5. HASIL EKSEKUSI →
-6. DIAGRAM ALUR + CONTOH PENGERJAAN LENGKAP (new page) →
-7. EVALUASI DAN TEMUAN → 8. EVALUASI LANJUTAN & REKOMENDASI (new page:
-metrik domain, baseline, patch runnable, benchmark multi-seed, roadmap
-P1–P3) → 9. KESIMPULAN.
+Metodologi → Hasil → Pembahasan → Pendahuluan → Abstrak & Simpulan
+(terakhir, agar tidak mengklaim lebih dari bukti) → Pustaka + cross-ref.
 
-## Aturan penting yang terbukti di lapangan
+## Literatur: verifikasi sebelum menulis
 
-- **Paritas kode**: teks blok harus identik byte-per-byte dengan
-  `file.py line A-B`. Verifier: `scripts/verify_analysis_report.py`.
-  Builder sudah dipatch: `PythonLexer(stripnl=False)` + baris kosong =
-  paragraf kosong + font Consolas auto (9pt ≤84 karakter, 8pt >84)
-  + sel kode 7,03 in. Blok >45 baris dipecah jadi beberapa blok agar
-  `cantSplit` tidak menciptakan ruang kosong/orphan header.
-- **Header blok patch** (kode usulan, bukan kutipan sumber) jangan memuat
-  pola `file.py line A-B` agar tidak ikut diverifikasi; format yang aman:
-  `Patch v2a — hitung_fitness (pso.py, ganti baris 49–52)`.
-- **TOC dua-pass**: build (nomor 0) → render PDF → ekstrak halaman fisik
-  tiap judul (mulai cari SETELAH halaman TOC) → build ulang → render →
-  assert stabil.
-- **Angka**: satu sumber kebenaran (audit JSON/CSV); audit numerik akhir
-  dengan `scripts/numeric_audit.py`.
-- Bahasa Indonesia ilmiah natural; klaim↔bukti 1↔1; tabel/gambar selalu
-  dirujuk dan ditafsirkan; caption di bawah gambar, di atas tabel.
+- Cari & verifikasi metadata tiap sitasi (DOI, venue, tahun, halaman) via
+  pencarian web; simpan `search_log.csv`, `literature_matrix.csv`,
+  `citation_entailment.csv` di folder audit/ledgers.
+- Sitasi dekat klaim; entailment langsung/parsial dicatat; jangan pakai
+  angka paper lain sebagai pembanding langsung bila metriknya tak sebanding.
+- IEEE numbering **by first appearance** — audit ulang setelah revisi struktur.
+
+## Persamaan bernomor
+
+Helper `eq(formula, n)`: paragraf CENTER, italic TNR 12, indent 0,6 in,
+nomor `"(n)"` inline di kanan. JANGAN pakai tab-stop + justification —
+menyebabkan rumus tersebar dan nomor turun baris (pelajaran run #1).
+
+## Produksi DOCX
+
+Gunakan `scripts/ml_docx_builder.py`: TNR 12, 1.15 spacing, justified body,
+caption TABEL di atas & GAMBAR di bawah, tabel header repeat + cantSplit.
+Blok kode hanya di Lampiran; header `file.py line A-B` tetap wajib lolos
+verifier. TOC tidak wajib untuk manuskrip gaya jurnal.
+
+## Audit sebelum selesai (G1–G10 + playbook 07)
+
+1. Paritas kode (snippet lampiran) — `verify_analysis_report.py`.
+2. Audit sitasi 1↔1: setiap [n] di teks terpetakan ke pustaka & sebaliknya,
+   urutan kemunculan benar — `audit/ledgers/citation_entailment.csv`.
+3. Audit angka — `numeric_audit.py` claims vs observed.
+4. QA render SEMUA halaman → PNG; perbaiki → render ulang sampai bersih.
+5. Manuskrip bersih dipisah dari catatan audit (ledger tetap di audit/).
+
+## Pelajaran run #1 (PSO, 2026-11)
+
+- Laporan "analisa kode 8 bab" BUKAN yang diminta pengguna — manuskrip
+  akademik standar-lah bentuknya.
+- Judul menamai masalah + cakupan metode, bukan slogam; pembuka memakai
+  fakta konkret ber-sitasi, bukan "di era digital...".
+- Pembahasan wajib membatasi inferensi (ablation ≠ klaim kausal per-komponen;
+  10 seed = deskriptif, bukan uji signifikansi).

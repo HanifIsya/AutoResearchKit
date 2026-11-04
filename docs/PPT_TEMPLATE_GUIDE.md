@@ -18,7 +18,7 @@ const LINE   = "D6E2EE";  // hairline separator
 const DARK   = "121314";  // kotak kode
 ```
 
-Font: **Segoe UI** (Regular + Bold) — tersedia di semua Windows/Office.
+Font: **Montserrat** (Regular + Bold) — mengikuti referensi; cloud font Microsoft 365 (fallback aman ke sans sistem).
 Kanvas: **16:9, 13.33 × 7.5 in** (`LAYOUT_WIDE`).
 
 ## Komponen berulang (motif)
@@ -50,3 +50,12 @@ Kanvas: **16:9, 13.33 × 7.5 in** (`LAYOUT_WIDE`).
 - Tidak ada chart dengan label terbulatkan salah (0,7 → "1").
 - Tidak ada slide full-teks tanpa elemen visual.
 - Angka slide = angka paper (sumber tunggal: audit JSON/CSV).
+
+## v2 (revisi fidelitas — pelajaran run #1)
+
+Versi pertama terlalu minimalis (cover navy, whitespace besar) sehingga
+terasa berbeda dari referensi. v2 menetapkan: cover terang dengan banner
+judul biru; Montserrat; badge logo kanan-atas tiap slide; panel konten
+rapat dengan border biru 1,6–2pt dan header strip biru; section bar
+dua-tona (biru + segmen biru muda di ujung kanan); kartu temuan 3 kolom
+dengan header berwarna; nomor halaman = urutan slide aktual.

@@ -87,14 +87,22 @@ GITHUB+MIT    checklist      LOOP PPT        referensi pengguna)
    hasil negatif.
 8. Gerbang: semua temuan berbukti; benchmark CSV + ringkasan statistik jadi.
 
-### FASE 3 — Paper DOCX (8 bab)
-Gunakan `scripts/ml_docx_builder.py` (class `MLReportDocx`). Struktur:
-Title Page → DAFTAR ISI → ALUR BACA KODE → ANALISA KODE → HASIL EKSEKUSI →
-DIAGRAM ALUR PROSES DAN CONTOH PENGERJAAN LENGKAP (new page) → EVALUASI DAN
-TEMUAN → EVALUASI LANJUTAN DAN REKOMENDASI PERBAIKAN (new page) → KESIMPULAN.
-Tulis dengan disiplin evidence-grounded: klaim↔bukti 1↔1, bahasa Indonesia
-ilmiah natural, tabel/gambar selalu dirujuk & ditafsirkan, tanpa fabrikasi.
-Gerbang: parity 100% via `scripts/verify_analysis_report.py`.
+### FASE 3 — Naskah Akademik Utuh (DOCX)
+BENTUK: manuskrip akademik standar mengikuti `evidence-grounded-academic-writing`
+(genre technical report / systems paper) — BUKAN laporan analisa-kode per modul.
+Struktur: Judul+Abstrak+Kata kunci → 1. Pendahuluan (gap via studi terdekat,
+RQ, kontribusi) → 2. Studi Terkait (sintesis tematik berkontras) →
+3. Metodologi (protokol audit, reproduksi multi-seed, desain patch, metrik
+domain + persamaan bernomor) → 4. Hasil (hanya output terukur) → 5. Pembahasan
+(interpretasi + batas inferensi) → 6. Simpulan → Daftar Pustaka (IEEE by first
+appearance) → Lampiran (protokol reproduksi).
+Sebelum menulis: verifikasi metadata tiap sitasi (DOI/venue/halaman) via
+pencarian web; simpan `audit/ledgers/{search_log,literature_matrix,
+citation_entailment}.csv`. Urutan tulis: Metodologi → Hasil → Pembahasan →
+Pendahuluan → Abstrak/Simpulan (terakhir). Analisa kode = BAHAN (metodologi &
+temuan), bukan struktur naskah. Detail: `references/04-paper-docx-guide.md`.
+Gerbang: parity snippet lampiran 100% + audit sitasi 1↔1 + audit numerik +
+QA render semua halaman.
 
 ### FASE 4 — Review Loop Paper (berulang sampai lolos)
 - A. Paritas kode (verifier).
@@ -106,8 +114,11 @@ Gerbang: parity 100% via `scripts/verify_analysis_report.py`.
 
 ### FASE 5 — PPT Deck (template referensi pengguna)
 1. Pelajari template referensi: render halaman kunci → PNG → ekstrak palet,
-   tipografi, pola layout (cover, exec summary, analisa, metodologi, hasil,
-   arsitektur, roadmap, kesimpulan, referensi).
+   tipografi, pola layout, lalu TIRU fidelitasnya: cover TERANG bergaya
+   referensi (bukan dark navy), font referensi (mis. Montserrat — cloud font
+   M365), panel rapat ber-border biru tebal, section bar dua-tona, badge
+   logo kanan-atas, footer tracker + nomor kotak. Detail:
+   `references/05-ppt-deck-guide.md` dan `docs/PPT_TEMPLATE_GUIDE.md`.
 2. Bangun deck 16:9 via `python-pptx` (ikuti skill `presentations:pptx`),
    16–20 slide; grafik dari angka benchmark nyata (matplotlib 300 DPI).
 3. Gerbang: angka sinkron dengan paper.
