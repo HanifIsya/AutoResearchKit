@@ -12,3 +12,4 @@ _work/
 *.log
 run_log*
 *.zip
+__pycache__/
