@@ -13,3 +13,4 @@ _work/
 run_log*
 *.zip
 __pycache__/
+!examples/synthetic_optimizer/demo_dataset.csv

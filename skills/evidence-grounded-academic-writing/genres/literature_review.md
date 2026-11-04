@@ -1,0 +1,5 @@
+# Genre: Narrative / scoping / systematic review
+
+Differentiate review types before selecting a protocol. Narrative review: transparent topical search and critical thematic synthesis; do not claim exhaustive coverage unless actual search supports it. Systematic review: explicit question, protocol, multi-database search, reproducible search strings, date, screening/duplicates/exclusions, risk-of-bias assessment, extraction and appropriate synthesis; follow applicable reporting guideline such as PRISMA 2020 where in scope. Scoping reviews may use JBI/PRISMA-ScR when applicable. Never create fictional PRISMA counts.
+
+Thematic synthesis should evaluate differences in population, design, outcome, unit and comparators, not rank studies on reported accuracy across different datasets. Define review contribution with nearest neighbors, contradictory evidence and boundaries. Use evidence maps, comparison tables and accurate flowcharts only from real counts. Study-quality ratings must be anchored in explicit evaluation criteria, not invented scores.

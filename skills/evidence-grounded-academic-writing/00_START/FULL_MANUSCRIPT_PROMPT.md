@@ -1,0 +1,9 @@
+# Prompt mode: FULL_MANUSCRIPT — copy-paste and fill fields
+
+Gunakan `ACADEMIC_WRITING_SYSTEM_v3/SKILL.md`, modul genre yang sesuai dan panduan penulisan v2 yang dilampirkan. Saya ingin naskah utuh untuk `[topik/jenis]` mengikuti `[brief/rubrik/template/venue]`, bahasa `[Indonesia/English]`, sitasi `[IEEE/APA/...]`, panjang `[... atau tanpa batas resmi]`, output `[DOCX/MD/PDF]`. Semua data, sumber, spreadsheet, kode atau berkas hasil ada dalam lampiran `[file...]`.
+
+Audit fakta dan kesesuaian claim–evidence terlebih dahulu. Jangan bertanya ulang hal yang berkas sudah jawab. Buat synthesis map yang membandingkan studi terdekat, alasan gap, kontribusi dan batas inferensi. Kalkulasi dari data yang tersedia harus dihitung ulang bila memungkinkan. Pisahkan hasil yang benar-benar dieksekusi dari log, simulasi/asumsi, target dan rencana. Susun isi secara mendalam dan profesional, bukan outline 5–7 halaman yang diperbanyak filler. Lebih banyak kuantifikasi hanya jika sumber/hasil mendukung.
+
+Gunakan tabel profesional, diagram arsitektur/pipeline, plot dari data, figure literatur yang boleh direproduksi atau placeholder spesifik, rumus yang memang digunakan serta caption/source notes. Setiap visual memiliki rujukan dan interpretasi di narasi, unit, n, denominator dan batas. Sitasi IEEE `[n]` ditempel dekat klaim untuk style IEEE dan renumber seluruh referensi sesuai kemunculan. Tulisan harus natural, akademik, terukur, dan tidak menggunakan kalimat ala AI berulang.
+
+Bangun Word sesuai template. Render dan periksa setiap halaman; perbaiki tabel terpotong, caption terpisah, halaman kosong, rumus, margin dan references. Pisahkan manuskrip akhir dari audit, prompts dan handoff. Serahkan DOCX + MD + assets/ledger, laporan audit dengan pekerjaan yang belum dilakukan, dan `PROJECT_HANDOFF_LATEST.md` untuk chat baru. Jangan mengklaim jurnal Q1/Q2 menerima naskah atau penelitian telah divalidasi tanpa bukti.

@@ -1,0 +1,7 @@
+# Genre: Technical report / ML competition report
+
+Prioritize auditability and methodological specifics. Typical flow: problem/evaluation/rules; dataset schema/grain; EDA and data issues; train/validation/test geometry; preprocessing/fitting boundaries; features/models/system; tuning/ensembles; measured metrics, fold/seed uncertainty and runtime; error/drift/subgroup analysis; deployment/risks; limitations; exact reproducibility and source/code references. Respect organizer's headings even if fewer/more than these.
+
+**Separate**: (A) actual training/inference; (B) cached predictions/results replay; (C) analysis from saved arrays; (D) planned tests; (E) unverified external scores. Public ranking metrics don't substitute for independent statistical evaluation. Explain differences between model variants vs architecture families, model averaging vs weight averaging, threshold selection and score definitions. Avoid calling descriptive progression a controlled ablation.
+
+Recommended displays: dataset statistics, missingness, target/cardinality/co-occurrence, pipeline with used stages vs skipped stages, model hyperparameter configs, fold metrics, OOF vs external result, FP/FN taxonomy, uncertainty CI forest, runtime and component budget. Focus on **what data the displayed results actually represent**. Ensure output file integrity, IDs and order if competition submissions are included.

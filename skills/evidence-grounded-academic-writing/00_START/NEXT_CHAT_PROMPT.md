@@ -1,0 +1,5 @@
+# Prompt mode: NEXT_CHAT / NEW PROJECT
+
+Saya melanjutkan pekerjaan penelitian/penulisan lintas chat atau project. Tidak perlu mengandalkan memori chat sebelumnya; **baca semua file yang saya upload**, utamakan `ACADEMIC_WRITING_SYSTEM_v3/SKILL.md`, `PROJECT_HANDOFF_LATEST.md`, `MANIFEST.json`, evidence ledger dan source catalog. Rekonstruksi status dengan membedakan data asli, hasil komputasi, sumber eksternal terverifikasi, target/asumsi, prosedur yang telah dijalankan, dan yang baru direncanakan. Hormati keputusan yang dikunci dan jangan meminta ulang informasi yang sudah terdapat dalam berkas. Cek konflik versi dan sumber sebelum mengubah angka/metode/klaim.
+
+Tugas berikutnya: `[ISI]`; output yang diminta `[ISI]`. Lanjutkan end-to-end hingga berkas selesai, sertakan audit singkat serta update `PROJECT_HANDOFF_LATEST.md` dan satu prompt singkat untuk chat selanjutnya. Jika ada sumber/topik baru yang memerlukan pembaruan literatur, lakukan riset web dan update shortcut katalog. Jangan mengarang eksperimen atau melebur status observed–planned.

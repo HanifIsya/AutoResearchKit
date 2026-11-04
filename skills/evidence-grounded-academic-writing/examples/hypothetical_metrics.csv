@@ -1,0 +1,4 @@
+metric,value,data_status,independent_unit_count
+Precision,0.75,SIMULATION,10
+Recall,0.5,SIMULATION,10
+F1,0.6,SIMULATION,10

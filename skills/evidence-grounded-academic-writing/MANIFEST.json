@@ -1,0 +1,320 @@
+{
+  "package": "ACADEMIC_WRITING_SYSTEM_v3",
+  "files": {
+    "SKILL.md": {
+      "size": 13210,
+      "sha256": "70d9ec6d24b5ac3caf2e0beb80e623eccba0b3a74c4436bc72e5e8bda72ae982"
+    },
+    "README.md": {
+      "size": 2162,
+      "sha256": "f4af1acaef483ef9432bc08a2d74be87d16c5c2ea83b50bf99e0661b82cc856e"
+    },
+    "CHANGELOG.md": {
+      "size": 1167,
+      "sha256": "8635d17f344ae38de41d829d8010726867306c6473fb779dcfb7484deb5c693a"
+    },
+    "00_START/RESEARCH_ZIP_PROMPT.md": {
+      "size": 2015,
+      "sha256": "d7e901e3b3ce78fd805a10be478889f1dfc0dc658e54c825228a3ca5267643d6"
+    },
+    "00_START/NEXT_CHAT_PROMPT.md": {
+      "size": 1062,
+      "sha256": "1b7dc2fb6e191df427feaaf4a16d1c57b012247b502617678834b40e7e99bf67"
+    },
+    "00_START/REVISE_AND_AUDIT_PROMPT.md": {
+      "size": 932,
+      "sha256": "83d17744937e84747bf848bc6d3abd394166fde8b41d3a4df5f0c9ae8f5370cd"
+    },
+    "00_START/FULL_MANUSCRIPT_PROMPT.md": {
+      "size": 1930,
+      "sha256": "b6676ed866ef6981f1a536d705dac598f23ddb3cad80243dd35e97f08d440e58"
+    },
+    "00_START/MASTER_PROMPT_SHORT.md": {
+      "size": 1880,
+      "sha256": "68ca37ef143ed3179863b20f148930f4dfec19bbc05c4f8afe074e50841a80b0"
+    },
+    "00_START/MASTER_PROMPT_FULL.md": {
+      "size": 4932,
+      "sha256": "c6b68da84f7a505da6bc8d3a93a27cb78fbf64708be01b628357fd149c865109"
+    },
+    "00_START/START_HERE.md": {
+      "size": 2000,
+      "sha256": "cc98cdd3ade8c86365679af1248b02de4526d2fbec0e9a5acdd2ac3443002f95"
+    },
+    "references/verified_examples.bib": {
+      "size": 1079,
+      "sha256": "605a4ed96da50d9af361a8886a9e8a4e70f6b9d4238e3ed5029f3e3ed657971a"
+    },
+    "references/source_catalog.csv": {
+      "size": 6877,
+      "sha256": "475162161fb9a9dfd8def67398e7358d3e926ee1ddbe15ef9f461bc2436da5b4"
+    },
+    "references/reading_index.md": {
+      "size": 8679,
+      "sha256": "fea5b000e87316d86a2f6bd2206fb1553534fbac23c7a2d079285bdb4bd9889f"
+    },
+    "references/README.md": {
+      "size": 1039,
+      "sha256": "a182714ae8f21668d38be9872c0cb8c37ed2e34c91c660c577759d8dea63ccfd"
+    },
+    "examples/mini_manuscript_demonstration.md": {
+      "size": 4741,
+      "sha256": "7b903a740b3ec65f3a31039a8b79fc67a8958da950cc5575036a28fd8bf354c1"
+    },
+    "examples/example_evidence_flow.png": {
+      "size": 53511,
+      "sha256": "54325f847ab4c08e201c98bff03c1417cb8b5a1cde047c0b01b6a0a137441c11"
+    },
+    "examples/hypothetical_metrics.csv": {
+      "size": 127,
+      "sha256": "ccd7c23f31af00aecbbc361b761541ef4d42e9ef059b0f398d50d5446227251f"
+    },
+    "examples/example_metrics.png": {
+      "size": 48660,
+      "sha256": "eeb6d530361757608bda6ef6685c6f2639289fbed86bec1a237f0708164196b4"
+    },
+    "examples/before_after_examples.md": {
+      "size": 3415,
+      "sha256": "3c3fe6ad19d68c8a323c065f23d8ab7b18d9e2a880fd603e141f4cc8191f7501"
+    },
+    "templates/review_findings.csv": {
+      "size": 82,
+      "sha256": "76f6587462f67491591922e0b6aefed3ade55398430ef67b288a4fa971786c44"
+    },
+    "templates/claim_ledger.csv": {
+      "size": 152,
+      "sha256": "2c0ed8523fd10e495765e217268c1834b2bca274c6a32a1b5ee0dbb712d18374"
+    },
+    "templates/visual_registry.csv": {
+      "size": 188,
+      "sha256": "f5fdec3e70dfb8068c5132c1a3cb6a6b8ead3a94195b324463e846330e28ab5a"
+    },
+    "templates/fulltext_permissions.csv": {
+      "size": 138,
+      "sha256": "2e8e64e5e9c46e30b2c49b6538f41f825c9aee0779631d111290f39d1778cba8"
+    },
+    "templates/source_catalog_template.csv": {
+      "size": 152,
+      "sha256": "40227a53c333c935b7cbb74dddaeadab574cf6b2994875cabc0fcd10f1dd2037"
+    },
+    "templates/new_chat_handoff.md": {
+      "size": 1451,
+      "sha256": "da0e49c576f049a4a4c7261f816d3693d2add1c6f352a286d469249e2e66efac"
+    },
+    "templates/citation_audit.csv": {
+      "size": 125,
+      "sha256": "f5b2f1e654f98afbfab2953dd142ebddc71f7d14e4db8a0b6e3a8bbfc6406bd4"
+    },
+    "templates/literature_matrix.csv": {
+      "size": 151,
+      "sha256": "72ec3eea6ddbbfc90b9e73a491a2fb046918664ed9828dfd82bb6851247d4a63"
+    },
+    "templates/project_brief.md": {
+      "size": 777,
+      "sha256": "159d1745a33e7a4a3d8b7b4e70da950ceee39385d6e74d734126c628b08e22e3"
+    },
+    "templates/release_checklist.md": {
+      "size": 1278,
+      "sha256": "41dcc4ccb1f8c7e1973f5123d72367bc39e25573fc60ea5ac7f8698cca3b0f56"
+    },
+    "templates/results_master.csv": {
+      "size": 154,
+      "sha256": "e41b2ce54d260acc73df33a025dec7798648458f944c45ff5613743e84e5bc41"
+    },
+    "templates/source_card.md": {
+      "size": 727,
+      "sha256": "31cb1e5efb977a9690f75094650b0d1523872e05f55b79db913c5dff2696acd9"
+    },
+    "templates/journal_index_check.csv": {
+      "size": 125,
+      "sha256": "0eb7625cd1507401d98228ef60057677ace1709572d4586632c4d84e80a2d489"
+    },
+    "templates/search_log.csv": {
+      "size": 124,
+      "sha256": "969c7f5d2ad591b4f045dc6d17de1da9e88ab0c27487095d509d54d5739af5d3"
+    },
+    "genres/essay.md": {
+      "size": 1473,
+      "sha256": "8fefd6e9f1666572465b6b010bcda909d4cb05f765fe6e7d7bff9fe21c44bbf2"
+    },
+    "genres/technical_report.md": {
+      "size": 1401,
+      "sha256": "23ed6e3bae8199c9ace9842c187a323ee333b77251eb9eb1bb3b91dfbdd273aa"
+    },
+    "genres/systems_paper.md": {
+      "size": 821,
+      "sha256": "ca3ad5e647acba34a135a1bd344afe2bc9ec52f69054526a9c7819d2fdfc9fa4"
+    },
+    "genres/literature_review.md": {
+      "size": 1055,
+      "sha256": "fb4667a101a34da731aa07045f1ff257fd324dc79d03af4aa83b7e3b32e58753"
+    },
+    "genres/research_article.md": {
+      "size": 1157,
+      "sha256": "e6250eef89cd8ef7d5b0c09badfdea70b54e5a5ed0381d48aafee2ded32c16dc"
+    },
+    "genres/kti_proposal.md": {
+      "size": 1151,
+      "sha256": "9e718dcc58c6ecd38d8c0bc41d1771348d1168d3c668adc00c87300165e8f294"
+    },
+    "scripts/build_shortcuts.py": {
+      "size": 2118,
+      "sha256": "457e6a2963c9de0dd10edea1ccbccadef5d12c2dee86ef43c42c862acafab9eb"
+    },
+    "scripts/build_handbook_docx.py": {
+      "size": 18382,
+      "sha256": "b1d2b48be00e48a4955f0b08264f6bd7f4d506366246764c091d654321cda8d9"
+    },
+    "scripts/create_example_figures.py": {
+      "size": 2203,
+      "sha256": "f8346a0e69ec1017d9cd293447006e8f9cdd19c8348f6fb200bf6daabe078b49"
+    },
+    "scripts/audit_package.py": {
+      "size": 1663,
+      "sha256": "1eed1c597ceb18df01f33fa323552fd59409e46d6f5dadfeebb0ffc6b77f60b7"
+    },
+    "handbook/ACADEMIC_WRITING_PLAYBOOK.md": {
+      "size": 5090,
+      "sha256": "8d5dbbb9edb39ea9589b75ed27ea0fd98e85dd2656074a07728f1ddce4f54b25"
+    },
+    "handbook/ACADEMIC_WRITING_PLAYBOOK.docx": {
+      "size": 127817,
+      "sha256": "07b18f5d6277e29e5abd22bec86025ca925ce07d19b6120387c3143913d841e4"
+    },
+    "source_material/Panduan_Penulisan_Akademik_v2.0_Advanced.md": {
+      "size": 79583,
+      "sha256": "705f8e931b4de0be38e17dabe0df2a8da0e1254094b1e792a1394d7484b2f89b"
+    },
+    "source_material/WORKFLOW_LINEAGE.md": {
+      "size": 1339,
+      "sha256": "a2aecba8269fad3e505cafd9b8cf4498c1a7730662a0ce1c728c052fe5068659"
+    },
+    "playbooks/02_source_hunt_and_reference_zip.md": {
+      "size": 6633,
+      "sha256": "390885419987941cbf9da0ccd05723765cc7ef729acb80c3a8c13b5d2d34d380"
+    },
+    "playbooks/09_handoff.md": {
+      "size": 2126,
+      "sha256": "c2f50eb4c6819673c1419b417abee13d8dbb7f04b844ba122dddfdf4e949ee73"
+    },
+    "playbooks/03_literature_and_citation.md": {
+      "size": 3669,
+      "sha256": "bca49e5b09d77e0945596b4a510801dc3d342d7cd9def320a5d414ccf0556b88"
+    },
+    "playbooks/04_methods_quantitative.md": {
+      "size": 4494,
+      "sha256": "40802d58f45eca6808b69f20fef2b80a8c7987a610176fb5a891d4eb3121d014"
+    },
+    "playbooks/07_word_assembly_and_qa.md": {
+      "size": 3884,
+      "sha256": "b7c184625fc0cdeecc7d283e227f777ad2a6d3389cb9435196031d4f9cc18fcb"
+    },
+    "playbooks/01_intake_and_scope.md": {
+      "size": 2955,
+      "sha256": "1bcfb0d6619ecebdf1d0c9ba0ff644129b624b41ac2d7ac71deb3808bfec0dba"
+    },
+    "playbooks/06_tables_figures_equations_notes.md": {
+      "size": 5568,
+      "sha256": "dd9fc4f7615637a4bba4540e44314e53ef2739a704a4529ad9dc29f8798af5c4"
+    },
+    "playbooks/05_manuscript_writing.md": {
+      "size": 3775,
+      "sha256": "d691a84e924a36d86ad31b3fb85b67ad6cf4ca20767bee7cbc6331af9e2c0248"
+    },
+    "playbooks/08_red_team_release.md": {
+      "size": 2939,
+      "sha256": "a4852afd8387425ed9d5421906c9478ad95bbd6518dfa49ccc8600cbfabb30a5"
+    },
+    "references/shortcuts/INDEX.md": {
+      "size": 5243,
+      "sha256": "74f60ddd27d3b10e77145e4a3efcdbbcffdec0c2143106f6d40060ddfc751b9d"
+    },
+    "references/shortcuts/writing_exemplars/std-21_prisma_2020_paper_at_plos_medicine.url": {
+      "size": 68,
+      "sha256": "661ac949496fb54a5479ea283296010267322840a1efdcfe5b239e730a42c07c"
+    },
+    "references/shortcuts/writing_exemplars/std-16_acm_chi_guide_to_successful_submission_2026.url": {
+      "size": 81,
+      "sha256": "0c6519a8bb1fc55435da6d62b5d29f3555daa6fb1224a71a61e84c839b1d5425"
+    },
+    "references/shortcuts/writing_exemplars/std-14_ten_simple_rules_for_writing_a_literature_review.url": {
+      "size": 102,
+      "sha256": "70cc44c6ab176eb510fefc0c6e9b0dc0aa49c9aaf18879dc8f2eb9e940d9448c"
+    },
+    "references/shortcuts/ethics/std-19_credit_contributor_role_taxonomy.url": {
+      "size": 48,
+      "sha256": "cf563b0e994be921ca206af46ba3d590ce86d6939faf834d5c4570a93552090c"
+    },
+    "references/shortcuts/ethics/std-18_cope_authorship_and_ai_tools.url": {
+      "size": 57,
+      "sha256": "4fd6843d728e625e161cd031c5dfbe32e523b6b8bb01a0b6f46c08e5f3aa4e11"
+    },
+    "references/shortcuts/figure_examples/std-13_ten_simple_rules_for_better_figures.url": {
+      "size": 102,
+      "sha256": "117902853fc3b8ee829a4d7f6a09fc7c2ec5e1e99764c597697ca5d7688e8989"
+    },
+    "references/shortcuts/figure_examples/std-06_prisma_2020_flow_diagram.url": {
+      "size": 81,
+      "sha256": "2a58488cc7630b12cb7e034b69289fbef5283965c4c694be16ba4185aeedafc2"
+    },
+    "references/shortcuts/index_verification/std-10_sinta_journal_index.url": {
+      "size": 75,
+      "sha256": "1e1f9a76ddd4aba1c9105a1e6fa90c2c81bb7299b820e304f0e6099a57fac6fa"
+    },
+    "references/shortcuts/index_verification/std-11_sinta_faq_accreditation.url": {
+      "size": 68,
+      "sha256": "17964064ae0d43908223d1ea75720f21934b989445e6540b5b936e736ad64c5c"
+    },
+    "references/shortcuts/index_verification/std-12_scimago_faq_on_sjr_and_quartiles.url": {
+      "size": 58,
+      "sha256": "0bbfdc0842f53bec0c49115e60fbbb47690e2ca6745a803493c60924dfe59a4e"
+    },
+    "references/shortcuts/research_methods/std-17_acm_sigsim_artifact_evaluation_guide.url": {
+      "size": 87,
+      "sha256": "ec970020a1eb17f610309a73ab09779eb30d975bf962b1dece577bcbb7912909"
+    },
+    "references/shortcuts/research_methods/std-20_osf_registrations_and_preregistrations.url": {
+      "size": 80,
+      "sha256": "dbddee016f9268e77fad2226692011c5ebfe440fb51e34dca86f94236dadc315"
+    },
+    "references/shortcuts/research_methods/std-08_icmje_preparing_a_manuscript.url": {
+      "size": 121,
+      "sha256": "e6c2ea35826bb7b6e069834f46e5930e9d07ad1f2e265f886529e863faa66520"
+    },
+    "references/shortcuts/research_methods/std-15_ten_simple_rules_for_responsible_data_science_workflow.url": {
+      "size": 102,
+      "sha256": "46ed6f5dfb4652c1c952a1477232244409e8c138972373d2d012d5ae730c71f9"
+    },
+    "references/shortcuts/research_methods/std-05_prisma_2020_statement.url": {
+      "size": 68,
+      "sha256": "0219137c652ae5c74f97b2b24da3e1602dab26f526e6ee7822c9e45cae193e6e"
+    },
+    "references/shortcuts/research_methods/std-04_apa_journal_article_reporting_standards.url": {
+      "size": 53,
+      "sha256": "5c7c0ba9b5c482d5deb99812d158e2dbe0b47e39bac0c086a5c9d75d1c1bf0c1"
+    },
+    "references/shortcuts/research_methods/std-07_equator_reporting_guidelines_search.url": {
+      "size": 83,
+      "sha256": "7e8364c42d5884f70ae91d3e74e45cff1ac5f3771a4f4bb996135164eb0e639f"
+    },
+    "references/shortcuts/venue_guidelines/std-01_ieee_author_center_structure_your_article.url": {
+      "size": 155,
+      "sha256": "07da6adb1fa7d26dabf18baa69629dde4f89c002403eb69b83230ae0c9c94ead"
+    },
+    "references/shortcuts/venue_guidelines/std-02_ieee_editorial_style_manual.url": {
+      "size": 127,
+      "sha256": "7eaf0a71df9ef0bb2d6b915e4365fc8c5b4a28702bc0157c3afe442b126ff00d"
+    },
+    "references/shortcuts/venue_guidelines/std-03_ieee_editorial_style_manual_for_authors_pdf.url": {
+      "size": 137,
+      "sha256": "8b89b9bd4ef84fd250d4d2c5a91aa0e591aa36b487a8874516181f467b1ebb64"
+    },
+    "references/shortcuts/citation_verification/std-09_crossref_references_best_practices.url": {
+      "size": 110,
+      "sha256": "2bf47504465c91bf7d1d75b363b17450c53339285ffe031cf6f003932a933829"
+    }
+  },
+  "requirements_missing": [],
+  "source_rows": 21,
+  "shortcuts": 21
+}
